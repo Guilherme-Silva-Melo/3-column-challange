@@ -1,0 +1,52 @@
+.background{
+    font-family: 'Big Shoulders Display', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.box{
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+
+}
+
+
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}    
+    
+.luxury{
+    background-color: hsl(179, 100%, 13%);   
+}
