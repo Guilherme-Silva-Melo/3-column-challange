@@ -28,8 +28,12 @@
     justify-content: center; 
     text-align: center;
     border-radius: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
+h1 {
+    color: hsl(0, 0%, 95%);
+}
 button{
     background-color: hsl(0, 0%, 95%);
     padding: 10px;
@@ -37,14 +41,26 @@ button{
     border: 0;
 }
 
+.sedans button{
+    color: hsl(31, 77%, 52%);;
+}
+
 .sedans{
     background-color: hsl(31, 77%, 52%);
+}
+
+.suv button{
+    color: hsl(184, 100%, 22%);;
 }
 
 .suv{
     background-color: hsl(184, 100%, 22%);
 }    
-    
+  
+.luxury button{
+    color: hsl(179, 100%, 13%);   
+}
+
 .luxury{
     background-color: hsl(179, 100%, 13%);   
 }
